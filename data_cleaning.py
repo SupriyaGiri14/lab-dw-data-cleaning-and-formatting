@@ -66,7 +66,7 @@ def null_value_cleaning(insurance_data):
 
 
 def drop_duplicates(insurance_data):
-    print(insurance_data.drop_duplicates())
+    insurance_data=insurance_data.drop_duplicates()
     print(insurance_data.duplicated())
 
     return insurance_data
